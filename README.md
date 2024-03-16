@@ -9,7 +9,7 @@
 
 
 ## import
-- introdueced in ECMAScript 2015 is also known as ES6 and ECMAScript 6.
+- introduced in ECMAScript 2015 is also known as ES6 and ECMAScript 6.
 - you can import "ES6 modules" only
 - can only be used within ES6 modules (should be *.mjs)
 - if your file is not an ES6 module, add `"type": "module"` to your package.json
