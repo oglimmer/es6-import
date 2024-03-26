@@ -1,4 +1,4 @@
-# Understanding Node.js require and import
+# Understanding Node.js require and import in JavaScript
 
 ## require
 - Node.js follows the commonJS module system (from 2009)
@@ -18,3 +18,14 @@
 
 ## Notes
 - In Node.js, using both `require` and `import` concurrently is prohibited
+
+# Understanding Node.js require and import in Typescript
+
+- import is transpiled into require
+- require says as require
+- don't use file extensions for imports/require
+- it's complicated: https://www.typescriptlang.org/docs/handbook/modules/theory.html#module-resolution
+
+## Note
+
+- I haven't managed to use `import` after transpiling. You can do that by setting "module": "ES2015" in tsconfig.json but it doesn't work.
